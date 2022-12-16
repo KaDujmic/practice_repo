@@ -7,39 +7,38 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="style.css"
-		/>
-		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Appointment App</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="card">
-				<button>
-					<img
-						src="https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3bdb2575-9a92-42f8-8472-bb78c7bd118a_720x405.jpeg"
-						alt="ROCK"
-					/>
-				</button>
+		<nav class="grid-navbar">
+			<div>
+				<img src="images.jpeg" alt="LOGO" class="nav-logo" />
 			</div>
-			<div class="card">
+			<div class="dropdown">
 				<button>
-					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrW2b1pSDMRqnOa72fqAmPtdwwxWGuwx0Kog&usqp=CAU"
-						alt="PAPER"
-					/>
+					<div class="dropbtn"></div>
+					<div class="dropbtn"></div>
+					<div class="dropbtn"></div>
 				</button>
+				<div class="dropdown-content">
+					<a href="#">Home</a>
+					<a href="#">Profile</a>
+					<a href="#">Logout</a>
+				</div>
 			</div>
-			<div class="card">
-				<button>
-					<img
-						src="https://images.cutco.com/products/shop/super-shears.jpg"
-						alt="SCISSORS"
-					/>
-				</button>
+		</nav>
+		<div class="grid-container">
+			<div class="grid-items-user">
+				<div class="grid-items-1">profile icon</div>
+				<div class="grid-items-1">user info</div>
 			</div>
+			<div class="grid-items">
+				<div class="grid-items-2">your appointments</div>
+				<div class="grid-items-2">Schedule appointment</div>
+				<div class="grid-items-2">3rd item</div>
+			</div>
+			<div class="grid-items-3">Long grid</div>
 		</div>
 	</body>
 </html>
