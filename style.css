@@ -13,7 +13,7 @@ img {
 	border-radius: 5px;
 	margin-bottom: auto;
 	margin-top: auto;
-	object-fit: cover;
+	object-fit: fill;
 }
 
 /* Color for all links */
