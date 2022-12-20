@@ -16,10 +16,12 @@ img {
 	object-fit: fill;
 }
 
+/* Color for all links */
 a {
 	color: rgba(40, 75, 99, 1);
 }
 
+/* Hover effect for all links */
 a:hover {
 	opacity: 0.7;
 }
@@ -54,6 +56,7 @@ a:hover {
 	grid-row-end: 3;
 }
 
+/* Grid for a single appointment in all appointments section */
 .grid-items-appointments-appointment {
 	display: grid;
 	padding: 1%;
@@ -65,6 +68,7 @@ a:hover {
 	background-color: rgba(191, 219, 247, 0.5)
 }
 
+/* Grid for an element in a single appointment */
 .appointment{
 	display: grid;
 	margin: 1%;
@@ -91,6 +95,7 @@ a:hover {
 	margin-left: auto;
 }
 
+/* Grid for icons section */
 .grid-items-icons {
 	display: grid;
 	background-color: transparent;
@@ -106,6 +111,7 @@ a:hover {
 	margin-left: auto;
 }
 
+/* Grid for a single item in items section */
 .grid-items-icons-item {
 	display: grid;
 	grid-template-rows: 33% 67%;
