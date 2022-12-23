@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/* Body, we specify a font family and background color */
+body {
+	background-color: rgba(2, 43, 58, 0.6);
+	font-family: 'Varela Round', sans-serif;
+}
+
+/* img will be positioned in the center of a div if its small or not the right resloution */
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+	margin-bottom: auto;
+	margin-top: auto;
+	object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Color for all links */
+a {
+	color: rgba(40, 75, 99, 1);
+}
+
+/* Hover effect for all links */
+a:hover {
+	opacity: 0.7;
+}
+
+/* Main Container */
+.grid-container {
+	background: #ffffff;
+	width: 60%;
+	height: 500px;
+	margin: 1%;
+	padding: 1%;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	grid-auto-rows: minmax(150px, auto);
+	justify-content: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.appointment-grid {
+	display: grid;
+	margin: 5%;
+	background-color: transparent;
+	height: 95%;
+	border-radius: 10px;
+	grid-column-start: 2;
+	grid-column-end: -1;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.appointment-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 1%;
+	background-color: rgba(191, 219, 247, 0.5);
+	border-radius: 10px;
+}
+
+.appointment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user-grid {
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+	border-bottom: 3px rgba(31, 122, 140, 0.6) solid;
+	border-radius: 10px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.user-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.user-data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2%;
+	height: 60%;
+	background-color: rgba(31, 122, 140, 0.4);
+  border-radius: 10px;
+}
+
+.icons-grid {
+	display: flex;
+	background-color: transparent;
+	border-radius: 10px;
+	justify-content: space-around;
+}
+
+.icon {
+	display: flex;
+	width: 30%;
+	height: 80%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
